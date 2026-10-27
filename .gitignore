@@ -1,0 +1,27 @@
+# Compilación de .NET
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Publicación
+publish/
+artifacts/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+appsettings.Local.json
