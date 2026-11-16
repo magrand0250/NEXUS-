@@ -1,0 +1,24 @@
+# Visual Studio / .NET
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+
+# Archivos locales de usuario/IDE
+*.user
+*.suo
+*.cache
+*.tmp
+*.log
+
+# Resultados y secretos locales
+TestResults/
+*.coverage
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
