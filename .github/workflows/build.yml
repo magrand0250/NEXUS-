@@ -25,5 +25,8 @@ jobs:
             8.0.x
             10.0.x
 
-      - name: Build solution
-        run: dotnet build nexus_v2.slnx --configuration Release
+      - name: Build console game
+        run: dotnet build nexus_v2.csproj --configuration Release
+
+      - name: Build Windows Forms app
+        run: dotnet build NEXUS.windowsforms/NEXUS.windowsforms.csproj --configuration Release
