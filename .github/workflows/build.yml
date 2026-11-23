@@ -25,8 +25,5 @@ jobs:
             8.0.x
             10.0.x
 
-      - name: Build console game
-        run: dotnet build nexus_v2.csproj --configuration Release "-p:DefaultItemExcludes=**/bin/**%3B**/obj/**%3B**/NEXUS.windowsforms/**"
-
       - name: Build Windows Forms app
         run: dotnet build NEXUS.windowsforms/NEXUS.windowsforms.csproj --configuration Release
